@@ -2,34 +2,65 @@
     display: inline-block;
     vertical-align: top;
 }
+
 .logo {
     width: 23%;
     padding: 1%;
-    text-align: center;
+    text-align: left
 }
+
 .nav {
     width: 73%;
     padding: 1%;
 }
-.ul {
+
+ul {
     width: 50%;
     margin-left: auto;
 }
+
 .heroImg {
     height: 600px;
     padding: 25px;
 }
+
 .content {
     width: 500px;
     margin: 0 auto;
 }
-.footer {
+
+footer {
     background-color:  #373738;
-    }
-.footer ul {
-    display: inline-block;
-    vertical-align: top;
 }
-.footer ul , .footer li {
-    text-align: center;
-   }
+
+footer ul li {
+    display: inline-block;
+    color: white;
+    width: 50px;
+    padding: 10px;
+}
+
+.footerUl {
+    vertical-align: top;
+    display: inline-block;
+}
+
+body {
+    background-image: url("../images/bgimage.png");
+    background-color: #cccccc;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+button {
+    box-shadow: 5px 10px;
+    font-family: 'Poppins', sans-serif;
+}
+
+li {
+    font-family: 'Poppins', sans-serif;
+}
+
+p {
+    font-family:  'Poppins', sans-serif;
+}
